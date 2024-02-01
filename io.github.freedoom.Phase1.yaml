@@ -44,10 +44,10 @@ modules:
       - type: file
         url: https://raw.githubusercontent.com/freedoom/freedoom/v0.13.0/dist/io.github.freedoom.Phase1.desktop
         sha256: 4ba71fe2c499531d6bd1b94d57bf197048349019d235e6fc77487a1700eace55
-        # Temporary version until screenshots-missing issue is fixed upstream
-        # https://github.com/freedoom/freedoom/issues/1305
       - type: file
-        path: io.github.freedoom.Phase1.metainfo.xml
+        path: io.github.freedoom.Phase2.metainfo.xml
+        url: https://raw.githubusercontent.com/freedoom/freedoom/v0.13.0/dist/io.github.freedoom.Phase1.metainfo.xml
+        sha256: bf3a419dc2374131a012748260ae4428e53b7d777922f04e29e0cb67185faecf
       - type: file
         path: playa2a8-48x48.png
       - type: file
@@ -56,7 +56,7 @@ modules:
         path: playa2a8-128x128.png
       - type: script
         commands:
-          - gzdoom +fluid_patchset /app/share/sounds/sf2/gzdoom.sf2 -file lights.pk3
+          - gzdoom +fluid_patchset /app/share/games/doom/soundfonts/gzdoom.sf2 -file lights.pk3
             brightmaps.pk3 "$@"
         dest-filename: gzdoom.sh
     build-commands:
