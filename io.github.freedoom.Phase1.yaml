@@ -45,8 +45,8 @@ modules:
         url: https://raw.githubusercontent.com/freedoom/freedoom/v0.13.0/dist/io.github.freedoom.Phase1.desktop
         sha256: 4ba71fe2c499531d6bd1b94d57bf197048349019d235e6fc77487a1700eace55
       - type: file
-        url: https://raw.githubusercontent.com/freedoom/freedoom/v0.13.0/dist/io.github.freedoom.Phase1.metainfo.xml
-        sha256: bf3a419dc2374131a012748260ae4428e53b7d777922f04e29e0cb67185faecf
+        url: https://raw.githubusercontent.com/freedoom/freedoom/af839d61b179836de037ec619b43bae7e62d105d/dist/io.github.freedoom.Phase1.metainfo.xml
+        sha256: 3dce541288f8d708cfc4dc480dd6de9332229171f2147e50e6277c6148b6ceb1
       - type: file
         path: playa2a8-48x48.png
       - type: file
