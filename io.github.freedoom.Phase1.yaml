@@ -53,6 +53,8 @@ modules:
         path: playa2a8-64x64.png
       - type: file
         path: playa2a8-128x128.png
+      - type: file
+        path: gzdoom.sh
     build-commands:
       - install -D gzdoom.sh /app/bin/gzdoom.sh
       - install -Dm 644 freedoom1.wad /app/share/games/doom
